@@ -11,7 +11,7 @@ h1 {
   color: rgba(175, 47, 47, 0.15);
   margin: 0;
 }
-input {
+.header__input {
   margin-top: 10px;
   width: 470px;
   font-size: 24px;
@@ -25,7 +25,15 @@ input {
 input:focus {
   outline: 0;
 }
-input::placeholder {
+.header__input::placeholder {
   color: rgb(225, 225, 225);
   font-style: italic;
+}
+.main {
+  text-align: left;
+}
+.todo-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
